@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-ink;
+  font-feature-settings: "kern";
+}
+
+a {
+  @apply text-brand-600 hover:text-brand-700;
+}
+
+.container-tight {
+  @apply max-w-6xl mx-auto px-4 sm:px-6;
+}
+
+.link-muted {
+  @apply text-slate-600 hover:text-ink;
+}
+
+.badge {
+  @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium;
+}
